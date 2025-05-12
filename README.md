@@ -21,7 +21,7 @@
 
 Jeg stod for at skrive coden for optagelse af data og at sende den data vidre til et SD kort, den kode ligger her(skevet med ChatGPT)
 
----
+
   // Start SD card
   if (!SD.begin(CSPIN)) {
     Serial.println("SD card initialization failed!");
@@ -54,7 +54,7 @@ Jeg stod for at skrive coden for optagelse af data og at sende den data vidre ti
     lcd.print("from DHT sensor!");
     return;
   }
----
+
 
 Jeg lavede en boks til vores komponenter, den var dog for lille så jeg endte med at redesigne den
 
